@@ -1,0 +1,56 @@
+h1 {
+	padding-left: 20px;
+}
+
+body {
+ 	
+ 	font-family: American Typewriter, serif;
+ }
+ 
+h2 {
+	text-align: center; 
+	background: #F5FFFA;
+	color: darkgreen;
+}
+p { 
+  text-align: center;
+ }
+ #mi {
+ 	font-size: 20px
+ }
+ #banner {
+   width: 100%;
+  
+ }
+
+ strong {
+ 	color: darkgreen;
+ }
+
+ .itens {
+ 	font-style: italic;
+ }
+
+ .beneficios {
+ 	background: #8FBC8F;
+ 	padding: 20px;
+ }
+
+ .principal{
+ 	background: #F5FFFA;
+ 	padding: 30px;
+ }
+
+ h3{
+ 	text-align: center;
+ }
+#bene{
+	width: 30%;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width:20%;
+	margin-right: 15%;
+}
