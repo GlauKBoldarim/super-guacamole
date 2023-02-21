@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contato - Lavanderia Express</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="caixa">
+			<h1><img src="greenlogo3.gif" alt="meu-logo"></h1>
+		<nav>
+		<ul>
+			<li class="tamanho"><a href="index.html">Home</a></li>
+			<li class="tamanho"><a href="produtos.html">Serviços</a></li>
+			<li class="tamanho"><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+		</div>
+	</header>
+	<main>
+		<form>
+			<label for="nome">Nome Completo:</label>
+			<input type="text" id="nome" class="input-padrao" required>
+
+			<label for="email"> E-mail: </label>
+			<input type="e-mail" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+			<label for="celular">Celular:</label>
+			<input type="tel" id="celular" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="mensagem">Mensagem:</label>
+            <textarea cols="72" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+
+            <legend class="parag" id="parag">Como prefere nosso contato?</legend>
+
+			<label for="radio-email"><input type="radio" name="contato"value="email" id="radio-email" required>E-mail</label>
+			
+
+			<label for="radio-celular"><input type="radio" name="contato"value="celular" id="celular" required>Celular</label>
+			
+
+			<label for="radio-whats"><input type="radio" name="contato"value="Whatsapp" id="Whatsapp" checked required>Whatsapp</label>
+			
+		 </fieldset>
+
+
+		 <fieldset>
+
+		 <legend>Qual o melhor horário para falarmos com você?</legend>
+
+		 <select>
+
+		 	<option>Das 08:00 às 11:00</option>
+		 	<option>Das 14:00 às 16:00</option>
+		 	<option>Das 17:00 às 19:00</option>
+
+		 </select>
+		 </fieldset>
+
+		 <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+
+
+
+			<input type="submit" value="Enviar Fomulário" class="enviar">
+
+		</form>
+	</main>
+	 <footer>
+    	<img src="logowhite.png">
+    	<p class="copy"> © Copyright Lavanderia Express - 2023 </p>
+    </footer>
+</body>
+</html>
